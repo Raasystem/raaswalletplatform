@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My DApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My DApp</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <!-- Add more navigation links as needed -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Welcome to My DApp</h2>
+            <div class="input-group">
+                <label for="inputAmount">Enter Amount:</label>
+                <input type="text" id="inputAmount" placeholder="0 ETH">
+                <button onclick="deposit()">Deposit</button>
+            </div>
+            <div id="output"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My DApp. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
