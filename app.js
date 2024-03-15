@@ -41,4 +41,3 @@ function deposit() {
         document.getElementById("output").innerText = 'Error: ' + error.message;
     });
 }
-
